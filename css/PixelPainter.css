@@ -5,7 +5,7 @@ body {
 
 h1 {
     text-align: center;
-    color: red;
+    color: black;
 }
   
 #pixelPainter {
@@ -48,8 +48,8 @@ h1 {
     display: inline-block;
 }
 
-paletteRow:hover {
-    background-color: brown;
+.paletteCell:hover {
+    background-color: blue;
 }
 
 .mainBtns {
@@ -71,5 +71,5 @@ paletteRow:hover {
 }
 
 .fillBtn:hover, .eraseBtn:hover, .clearBtn:hover, .saveBtn:hover, .loadBtn:hover {
-    background-color: dodgerblue;
+    color: orange;
 }
