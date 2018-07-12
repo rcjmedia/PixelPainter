@@ -1,0 +1,75 @@
+  
+body {
+    background-color: silver;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+  
+#pixelPainter {
+    border: 3px solid black;
+    border-radius: 1em;
+    padding: 9px;
+    width: 485px;
+    height: 750px;
+    margin: 10px auto;
+    overflow-wrap: inherit;
+    background-color: white;
+}
+
+.canvasCell {
+    border: 0.01em solid black;
+    height: 2em;
+    width: 2em;
+    display: inline-block;
+}
+
+.canvasCell:hover {
+    background-color: red;
+}
+
+.painterCanvas {
+    display: inline-block;
+}
+
+.canvasCell {
+    border: 0.01em solid black;
+    height: 2em;
+    width: 2em;
+    display: inline-block;
+}
+
+.paletteCell {
+    border: 0.01em solid black;
+    height: 2.77em;
+    width: 6.02em;
+    display: inline-block;
+}
+
+paletteRow:hover {
+    background-color: brown;
+}
+
+.mainBtns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 8px;
+}
+
+.fillBtn, .eraseBtn, .clearBtn, .saveBtn, .loadBtn {
+    text-align: center;
+    font-family: sans-serif;
+    color: fff;
+    line-height: 45px;
+    background-color: gray;
+    border: 0.01em solid black;
+    height: 3em;
+    width: 5.95em;
+    margin-top: 3px;
+}
+
+.fillBtn:hover, .eraseBtn:hover, .clearBtn:hover, .saveBtn:hover, .loadBtn:hover {
+    background-color: dodgerblue;
+}
