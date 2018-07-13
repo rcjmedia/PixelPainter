@@ -1,22 +1,33 @@
   
 body {
-    background-color: silver;
+    background-color: white;
 }
 
 h1 {
-    text-align: center;
-    color: black;
+    display: none;
 }
-  
+
+.appTitle {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 4px;
+    font-size: 24px;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 #pixelPainter {
     border: 3px solid black;
     border-radius: 1em;
     padding: 9px;
     width: 485px;
-    height: 750px;
+    height: 765px;
     margin: 10px auto;
     overflow-wrap: inherit;
-    background-color: white;
+    background-color: silver;
 }
 
 .canvasCell {
@@ -24,6 +35,7 @@ h1 {
     height: 2em;
     width: 2em;
     display: inline-block;
+    background-color: white;
 }
 
 .canvasCell:hover {
@@ -43,13 +55,13 @@ h1 {
 
 .paletteCell {
     border: 0.01em solid black;
-    height: 2.77em;
-    width: 6.02em;
+    height: 2em;
+    width: 2em;
     display: inline-block;
 }
 
 .paletteCell:hover {
-    background-color: blue;
+    border-color: white;
 }
 
 .mainBtns {
@@ -66,7 +78,7 @@ h1 {
     background-color: gray;
     border: 0.01em solid black;
     height: 3em;
-    width: 5.95em;
+    width: 5.99em;
     margin-top: 3px;
 }
 
